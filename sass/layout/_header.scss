@@ -1,0 +1,25 @@
+@import "../dabstracts/variables";
+F .header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to left bottom,
+      $color-primary,
+      $color-primary-dark
+    ),
+    url(../img/hero.jpg);
+  background-image: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+
+  &__logo-box {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+  }
+
+  &__logo {
+    height: 5rem;
+    width: 5rem;
+  }
+}
