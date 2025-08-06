@@ -1,0 +1,25 @@
+@import "../abstracts/variables";
+
+.row-about {
+  margin: 0 auto;
+  max-width: $grid-width;
+
+  // Clearfix
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $grid-gutter-vertical;
+  }
+
+  .col1 {
+    width: calc((100% - #{$grid-gutter-horizontal}) / 2);
+    &:not(:last-child) {
+      margin-right: $grid-gutter-horizontal;
+    }
+    float: left;
+  }
+}

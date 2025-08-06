@@ -1,0 +1,39 @@
+.composition {
+  position: relative;
+
+  &__photo {
+    width: 80%;
+    box-shadow: 0 2.5rem 4 rem $color-grey-dark;
+    position: absolute;
+
+    &--p1 {
+      top: 0rem;
+      left: 0rem;
+    }
+
+    &--p2 {
+      top: 10rem;
+      left: 15rem;
+    }
+
+    &--p3 {
+      top: 20rem;
+      left: 4rem;
+    }
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.5rem);
+      z-index: 20;
+      padding: 8px;
+      background: linear-gradient(
+        to right,
+        $color-primary-green,
+        $color-primary-blue
+      );
+    }
+  }
+
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.95);
+  }
+}
