@@ -1,6 +1,6 @@
 @import "../abstracts/variables";
 
-.row-about {
+.row {
   margin: 0 auto;
   max-width: $grid-width;
 
@@ -17,6 +17,14 @@
 
   .col1 {
     width: calc((100% - #{$grid-gutter-horizontal}) / 2);
+    &:not(:last-child) {
+      margin-right: $grid-gutter-horizontal;
+    }
+    float: left;
+  }
+
+  .col2 {
+    width: calc((100% - 2 * #{$grid-gutter-horizontal}) / 3);
     &:not(:last-child) {
       margin-right: $grid-gutter-horizontal;
     }

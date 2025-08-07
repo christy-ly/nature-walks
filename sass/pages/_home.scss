@@ -2,7 +2,12 @@
 
 .section-about {
   background-color: $color-grey-light-1;
-  padding-top: 20rem;
+  padding-top: 25rem;
+  padding-bottom: 10rem;
+  margin-top: -25rem;
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
   padding-bottom: 5rem;
-  margin-top: -25vh;
 }
