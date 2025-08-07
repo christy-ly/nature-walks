@@ -35,7 +35,6 @@ project-root/
 ```
 
 ## ✨ Features  
-## ✨ Features  
 - Built with semantic **HTML5**  
 - Modular **SCSS** structure with `abstract`, `base*`, `components`, and `layout` folders  
 - Responsive design using `vh`, `%`, and `rem` units  
