@@ -66,7 +66,7 @@ body {
   font-weight: 400;
   /* font-size: 1.6rem; */
   line-height: 1.7;
-  color: #777;
+  color: #757575;
   padding: 1rem; }
 
 .header {
@@ -93,7 +93,7 @@ body {
     animation: moveInRight 1s ease-in; }
 
 .header-primary {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -106,12 +106,12 @@ body {
     transform: skewY(3deg) skewX(15deg); }
 
 .header-primary-sub {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase; }
 
 .about-paragraph {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
   .about-paragraph:not(:last-child) {
     margin-bottom: 4rem; }
 
@@ -124,6 +124,14 @@ body {
 .section-tours {
   background-color: #cecece20;
   padding-bottom: 5rem; }
+
+.section-reviews {
+  padding: 5rem 0;
+  position: relative; }
+
+.section-subscription {
+  padding: 5rem 0;
+  background-image: linear-gradient(to top, rgba(23, 67, 118, 0.5), rgba(86, 176, 250, 0.7)); }
 
 .header {
   height: 95vh;
@@ -160,32 +168,34 @@ body {
     .row .col2:not(:last-child) {
       margin-right: 2rem; }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
-  font-size: 1.2rem;
-  position: relative; }
+  font-size: 1rem;
+  position: relative;
+  border: none;
+  cursor: pointer; }
 
 .btn--white {
   background-color: #fff;
-  color: #777; }
+  color: #757575; }
   .btn--white::after {
     background-color: #fff; }
 
 .btn:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); }
+  transform: translateY(-0.1rem);
+  box-shadow: 0 1rem 1rem rgba(182, 182, 182, 0.5); }
   .btn:hover::after {
     transform: scaleX(1.5) scaleY(1.6);
     opacity: 0; }
 
 .btn:active {
   transform: translateY(-0.1rem);
-  box-shadow: 0 5rem 1rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 1rem 1rem rgba(182, 182, 182, 0.2); }
 
 .btn::after {
   content: "";
@@ -207,7 +217,7 @@ body {
   position: relative; }
   .btn-text:link, .btn-text:visited {
     color: #0065b8c6;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: inline-block;
     text-decoration: none;
     border-bottom: 2px solid #1b9b70dc;
@@ -220,7 +230,7 @@ body {
   position: relative; }
   .composition__photo {
     width: 80%;
-    box-shadow: 0 2.5rem 4 rem #777;
+    box-shadow: 0 2.5rem 4 rem #757575;
     position: absolute; }
     .composition__photo--p1 {
       top: 0rem;
@@ -251,7 +261,7 @@ body {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    box-shadow: 0 1rem 2rem #777;
+    box-shadow: 0 1rem 2rem #757575;
     transition: all 0.8s ease; }
     .card__side--front {
       background-color: #fff; }
@@ -260,7 +270,7 @@ body {
       .card__side--back-1 {
         background-image: linear-gradient(to top, #ff8732, red); }
       .card__side--back-2 {
-        background-image: linear-gradient(to top, #008cff, #2d00f3); }
+        background-image: linear-gradient(to top, #56b0fa, #174376); }
       .card__side--back-3 {
         background-image: linear-gradient(to top, #00fea1, #007204); }
   .card:hover .card__side--front {
@@ -277,7 +287,7 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to top, #ff8732, red), url(../../img/about-photo-1.png); }
     .card__picture--2 {
-      background-image: linear-gradient(to top, #008cff, #2d00f3), url(../../img/about-photo-2.png); }
+      background-image: linear-gradient(to top, #56b0fa, #174376), url(../../img/about-photo-2.png); }
     .card__picture--3 {
       background-image: linear-gradient(to top, #00fea1, #007204), url(../../img/about-photo-3.png); }
   .card__heading {
@@ -295,7 +305,7 @@ body {
       .card__heading-span--1 {
         background-image: linear-gradient(to right, rgba(255, 0, 0, 0.99), rgba(255, 135, 50, 0.01)); }
       .card__heading-span--2 {
-        background-image: linear-gradient(to right, rgba(45, 0, 243, 0.99), rgba(0, 140, 255, 0.01)); }
+        background-image: linear-gradient(to right, rgba(23, 67, 118, 0.99), rgba(86, 176, 250, 0.01)); }
       .card__heading-span--3 {
         background-image: linear-gradient(to right, rgba(0, 114, 4, 0.99), rgba(0, 254, 161, 0.01)); }
   .card__details ul {
@@ -308,7 +318,7 @@ body {
       font-size: 1.4rem;
       padding: 0.2rem; }
       .card__details ul li:not(:last-child) {
-        border-bottom: 1px solid #777; }
+        border-bottom: 1px solid #757575; }
   .card__info {
     position: absolute;
     top: 50%;
@@ -318,9 +328,157 @@ body {
   .card__price-box {
     color: #fff; }
   .card__price-main {
-    font-size: 2.4rem;
-    text-transform: uppercase; }
+    font-size: 2rem; }
   .card__price-sub {
     font-size: 3rem;
     font-weight: 250;
-    padding: 1rem; }
+    padding: 2rem;
+    text-transform: uppercase; }
+
+.review {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 3rem 6rem rgba(182, 182, 182, 0.1);
+  border-radius: 3px;
+  padding: 3rem;
+  font-size: 1rem;
+  transform: skew(-12deg); }
+  .review > * {
+    transform: skew(12deg); }
+  .review__icon {
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    background-color: #fff;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    position: relative; }
+  .review__img {
+    width: 100%;
+    backface-visibility: hidden;
+    transition: all 0.5s; }
+  .review:hover .review__img {
+    filter: blur(3px) brightness(80%);
+    transform: scale(1.2); }
+  .review__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    backface-visibility: hidden;
+    transition: all 0.5s;
+    opacity: 0; }
+  .review:hover .review__caption {
+    transform: translate(-50%, -50%);
+    opacity: 1; }
+  .review__text {
+    transform: skewX(12deg); }
+
+.bg-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.15; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
+.subscription {
+  background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 40%), url(../../img/about-photo-2.png);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 0.5rem 3rem rgba(23, 67, 118, 0.5);
+  height: 40rem;
+  position: relative; }
+  .subscription__form {
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    padding: 4rem; }
+
+.form__input {
+  font-size: 1rem;
+  font-family: inherit;
+  color: #b0b0b0;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-bottom: 3px solid #757575;
+  width: 90%;
+  height: 2.5rem;
+  padding-left: 0.5rem;
+  display: block; }
+  .form__input::-webkit-input-placeholder {
+    color: #757575; }
+  .form__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(117, 117, 117, 0.2);
+    border-bottom: 3px solid #56b0fa; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid red; }
+
+.form__label {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 0.5rem;
+  display: block;
+  margin-bottom: 2rem;
+  transition: all 0.3s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: -4rem; }
+
+.form__checkbox-group {
+  display: inline-block;
+  padding-bottom: 3rem; }
+
+.form__checkbox-label {
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.form__checkbox-input {
+  display: none; }
+
+.form__checkbox-button {
+  position: absolute;
+  height: 1.2rem;
+  width: 1.2rem;
+  left: 0rem;
+  top: 0rem;
+  border: 2px solid #0065b8c6;
+  border-radius: 50%; }
+  .form__checkbox-button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0065b8c6;
+    opacity: 0;
+    transition: opacity 0.2s; }
+
+.form__checkbox-input:checked ~ .form__checkbox-label .form__checkbox-button::after {
+  opacity: 1; }
+
+.form__submit {
+  background-color: #0065b8c6;
+  color: #fff; }

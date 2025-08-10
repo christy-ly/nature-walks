@@ -1,17 +1,19 @@
 $color-primary-green: #1b9b70dc;
 $color-primary-blue: #0065b8c6;
 
-$color-grey-dark: #777;
+
 $color-grey-light-1: #cecece20;
 
-$color-black: #000;
+$color-black: #b6b6b6;
 $color-white: #fff;
 $color-red-light: rgb(255, 135, 50);
 $color-red-dark: rgb(255, 0, 0);
-$color-blue-light: rgb(0, 140, 255);
-$color-blue-dark: rgb(45, 0, 243);
+$color-blue-light: rgb(86, 176, 250);
+$color-blue-dark: rgb(23, 67, 118);
 $color-green-light: rgb(0, 254, 161);
 $color-green-dark: rgb(0, 114, 4);
+$color-grey-light: #b0b0b0;
+$color-grey-dark: #757575;
 
 // Grid
 $grid-width: 80rem;
@@ -19,4 +21,4 @@ $grid-gutter-vertical: 8rem;
 $grid-gutter-horizontal: 2rem;
 
 //font
-$default-font-size: 1.2rem;
+$default-font-size: 1rem;

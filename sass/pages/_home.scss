@@ -11,3 +11,17 @@
   background-color: $color-grey-light-1;
   padding-bottom: 5rem;
 }
+
+.section-reviews {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.section-subscription {
+  padding: 5rem 0;
+  background-image: linear-gradient(
+    to top,
+    rgba($color-blue-dark, 0.5),
+    rgba($color-blue-light, 0.7)
+  );
+}
