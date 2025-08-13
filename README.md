@@ -1,38 +1,12 @@
-<h3 align="center">Wildhush - A tour booking website 🗻🗻🗻</h3>
+<h3 align="center">Wildhush – A Tourist Website 🗻🗻🗻</h3>
 
 ## 💬 Overview
-This project is a clean, professional tour booking website built with HTML, CSS, and SCSS. It features a modular SCSS architecture, responsive design, and engaging animations for an excellent user experience.
+This project is a clean, professional tour booking website built with HTML, CSS, and SCSS. It features a modular SCSS architecture, responsive design, and engaging animations to deliver an excellent user experience across all devices.
 
-## 📁 Folder Structure
-```
-project-root/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── sass/
-│   ├── abstract/
-│   │   ├── _functions.scss
-│   │   ├── _mixins.scss
-│   │   └── _variables.scss
-│   ├── base/
-│   │   ├── _base.scss
-│   │   ├── _animations.scss
-│   │   ├── _typography.scss
-│   │   └── _untility.scss
-│   ├── components/
-│   │   ├── _button.scss
-│   │   ├── _compistion.scss
-│   │   └── _card.scss
-│   ├── layout/
-│   │   ├── _header.scss
-│   │   ├── _row.scss
-│   │   └── _footer.scss
-│   └── main.scss
-├── img/
-│   └── hero.jpg
-└── README.md
-```
+## 🛠 Technologies Stack
+- HTML5 – Structure and semantic markup
+- CSS3 / SCSS – Styling, responsive layout, and animations
+- Sass – CSS preprocessor for modular and maintainable code
 
 ## ✨ Features  
 - Built with semantic **HTML5**  
@@ -61,14 +35,50 @@ project-root/
       }
     }
     ```
+    
+## 📁 Folder Structure
+```
+project-root/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── sass/
+│   ├── abstract/
+│   │   ├── _functions.scss
+│   │   ├── _mixins.scss
+│   │   └── _variables.scss
+│   ├── base/
+│   │   ├── _base.scss
+│   │   ├── _animations.scss
+│   │   ├── _typography.scss
+│   │   └── _untility.scss
+│   ├── components/
+│   │   ├── _button.scss
+│   │   ├── _bg-video.scss
+│   │   ├── _review.scss
+│   │   ├── subscription.scss
+│   │   ├── _compistion.scss
+│   │   └── _card.scss
+│   ├── layout/
+│   │   ├── _header.scss
+│   │   ├── _popup.scss
+│   │   ├── _navigation.scss
+│   │   ├── _row.scss
+│   │   └── _footer.scss
+│   └── main.scss
+├── img/
+│   └── hero.jpg
+└── README.md
+```
 
 ## 📽️View Demo
 Check out the live demo of this project here: [View Demo](https://steady-donut-83396d.netlify.app/)
-
 
 ## 📚References
 - **HTML & CSS Docs** – [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
 - **CSS Layout Guide** – [CSS-Tricks](https://css-tricks.com/snippets/css/)
 - **Photo Source** – [Unsplash](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
+- **Video Source** – [Pexels](https://unsplash.com/?utm_source=your_app_name&utm_medium=referral)
 
 
