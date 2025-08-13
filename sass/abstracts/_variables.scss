@@ -1,7 +1,6 @@
 $color-primary-green: #1b9b70dc;
 $color-primary-blue: #0065b8c6;
 
-
 $color-grey-light-1: #cecece20;
 
 $color-black: #b6b6b6;
@@ -14,6 +13,7 @@ $color-green-light: rgb(0, 254, 161);
 $color-green-dark: rgb(0, 114, 4);
 $color-grey-light: #b0b0b0;
 $color-grey-dark: #757575;
+$color-black: #000000;
 
 // Grid
 $grid-width: 80rem;
@@ -22,3 +22,14 @@ $grid-gutter-horizontal: 2rem;
 
 //font
 $default-font-size: 1rem;
+
+// z-index
+$btn-after: -1;
+$bg-video: -1;
+
+$composition-photo-hover: 20;
+
+$nav-background: 1000;
+$nav-nav: 1500;
+$nav-button: 2000;
+$nav-list: 2500;

@@ -23,7 +23,7 @@
 
     &:hover {
       transform: scale(1.05) translateY(-0.5rem);
-      z-index: 20;
+      z-index: $composition-photo-hover;
       padding: 8px;
       background: linear-gradient(
         to right,
