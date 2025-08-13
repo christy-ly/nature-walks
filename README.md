@@ -1,7 +1,7 @@
 <h3 align="center">Wildhush – A Tourist Website 🗻🗻🗻</h3>
 
 ## 💬 Overview
-This project is a clean, professional tour booking website built with HTML, CSS, and SCSS. It features a modular SCSS architecture, responsive design, and engaging animations to deliver an excellent user experience across all devices.
+This project is a clean, professional tourist website built with HTML, CSS, and SCSS. It features a modular SCSS architecture, responsive design, and engaging animations for an excellent user experience.
 
 ## 🛠 Technologies Stack
 - HTML5 – Structure and semantic markup
