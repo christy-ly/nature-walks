@@ -1,14 +1,14 @@
 {
-  "name": "wildhush",
+  "name": "nature-walks",
   "version": "1.0.0",
-  "description": "Landing page for wildhush",
-  "homepage": "https://github.com/christy-ly/Wildhush#readme",
+  "description": "Landing page for nature-walks",
+  "homepage": "https://github.com/christy-ly/nature-walks#readme",
   "bugs": {
-    "url": "https://github.com/christy-ly/Wildhush/issues"
+    "url": "https://github.com/christy-ly/nature-walks/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christy-ly/Wildhush.git"
+    "url": "git+https://github.com/christy-ly/nature-walks.git"
   },
   "license": "ISC",
   "author": "",

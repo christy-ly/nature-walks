@@ -1,4 +1,4 @@
-<h3 align="center">Wildhush – A Tourist Website 🗻🗻🗻</h3>
+<h3 align="center">Nature Walks – A Tourist Website 🗻🗻🗻</h3>
 
 ## 💬 Overview
 This project is a clean, professional tourist website built with HTML, CSS, and SCSS. It features a modular SCSS architecture, responsive design, and engaging animations for an excellent user experience.
