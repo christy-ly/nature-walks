@@ -13,7 +13,7 @@ This project is a clean, professional tourist website built with HTML, CSS, and 
 - Modular **SCSS** structure with `abstract`, `base*`, `components`, and `layout` folders  
 - Responsive design using `vh`, `%`, and `rem` units  
 - Engaging **CSS animations** and **transitions**  
-- Fully optimized for **desktop and mobile viewports** (In progress…)  
+- Fully optimized for desktop and mobile viewports using **CSS @media queries**
 - Clear and maintainable CSS naming using **BEM methodology**:  
   - Elements named with `__` (double underscore), e.g., `.card__title` 
   - Modifiers named with `--` (double dash), e.g., `.card--featured` or `.card__button--disabled`  
@@ -49,23 +49,23 @@ project-root/
 │   │   ├── _mixins.scss
 │   │   └── _variables.scss
 │   ├── base/
-│   │   ├── _base.scss
 │   │   ├── _animations.scss
+│   │   ├── _base.scss
 │   │   ├── _typography.scss
 │   │   └── _untility.scss
 │   ├── components/
-│   │   ├── _button.scss
 │   │   ├── _bg-video.scss
+│   │   ├── _button.scss
+│   │   ├── _card.scss
 │   │   ├── _review.scss
-│   │   ├── subscription.scss
 │   │   ├── _compistion.scss
-│   │   └── _card.scss
+│   │   └── _subscription.scss
 │   ├── layout/
+│   │   ├── _footer.scss
 │   │   ├── _header.scss
-│   │   ├── _popup.scss
 │   │   ├── _navigation.scss
-│   │   ├── _row.scss
-│   │   └── _footer.scss
+│   │   ├── _popup.scss
+│   │   └── _row.scss
 │   └── main.scss
 ├── img/
 │   └── hero.jpg
