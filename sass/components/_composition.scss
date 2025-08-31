@@ -3,21 +3,24 @@
 
   &__photo {
     width: 80%;
-    box-shadow: 0 2.5rem 4 rem $color-grey-dark;
+    box-shadow: 0 2.5rem 4rem $color-grey-dark;
     position: absolute;
 
+    @include respond(tab-port) {
+     width: 60%;
+    }
     &--p1 {
       top: 0rem;
-      left: 0rem;
+      left: 3rem;
     }
 
     &--p2 {
       top: 7rem;
-      left: 10rem;
+      left: 12rem;
     }
 
     &--p3 {
-      top: 20rem;
+      top: 22rem;
       left: 4rem;
     }
 

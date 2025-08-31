@@ -3,8 +3,14 @@
 .section-about {
   background-color: $color-grey-light-1;
   padding-top: 25rem;
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
   margin-top: -25rem;
+  @include respond(phone) {
+    padding-bottom: 10rem;
+  }
+  @include respond(tab-port) {
+    padding-bottom: 70rem;
+  }
 }
 
 .section-tours {

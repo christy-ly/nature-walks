@@ -1,9 +1,9 @@
 @import "../abstracts/variables";
+@import "../abstracts/mixins";
 
 .row {
   margin: 0 auto;
   max-width: $grid-width;
-
   // Clearfix
   &:after {
     content: "";
@@ -13,21 +13,46 @@
 
   &:not(:last-child) {
     margin-bottom: $grid-gutter-vertical;
+    @include respond(tab-port) {
+      margin-bottom: $grid-gutter-vertical-small;
+    }
   }
 
-  .col1 {
+  @include respond(tab-port) {
+    width: 100% !important;
+  }
+
+  .col-about {
     width: calc((100% - #{$grid-gutter-horizontal}) / 2);
+    float: left;
+    @include respond(tab-port) {
+      width: 100% !important;
+      margin: 0 auto;
+      height: auto;
+    }
+
     &:not(:last-child) {
       margin-right: $grid-gutter-horizontal;
+      @include respond(tab-port) {
+        margin: 0 auto $grid-gutter-vertical auto;
+      }
     }
-    float: left;
   }
 
-  .col2 {
+  .col-tours {
     width: calc((100% - 2 * #{$grid-gutter-horizontal}) / 3);
+    float: left;
+    @include respond(tab-port) {
+      float: none;
+      width: 60% !important;
+      margin: 0 auto $grid-gutter-vertical auto;
+    }
+
     &:not(:last-child) {
       margin-right: $grid-gutter-horizontal;
+      @include respond(tab-port) {
+        margin: 0 auto $grid-gutter-vertical auto;
+      }
     }
-    float: left;
   }
 }

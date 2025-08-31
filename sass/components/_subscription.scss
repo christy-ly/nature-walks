@@ -14,11 +14,24 @@
   height: 40rem;
   position: relative;
 
+  @include respond(tab-port) {
+    background-image: linear-gradient(
+        280deg,
+        rgba($color-white, 0) 0%,
+        rgba($color-white, 0) 40%,
+        rgba($color-white, 0.8) 40%
+      ),
+      url(../../img/about-photo-2.png);
+  }
+
   &__form {
     position: absolute;
     left: 50%;
     width: 40%;
     padding: 4rem;
+    @include respond(tab-port) {
+      left: 0;
+    }
   }
 }
 
@@ -69,6 +82,9 @@
   &__checkbox-group {
     display: inline-block;
     padding-bottom: 3rem;
+    @include respond(tab-port) {
+      padding-bottom: 1rem;
+    }
   }
 
   &__checkbox-label {
